@@ -5,3 +5,10 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Sujal-Ghorpade/simple-addition-app.git
 git push -u origin main
+
+
+
+mvn compile      # compiles Addition.java
+mvn test         # runs AdditionTest.java
+mvn package      # builds .jar file
+java -cp target/simple-addition-app-1.0-SNAPSHOT.jar Addition
